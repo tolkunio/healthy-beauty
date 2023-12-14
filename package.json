@@ -1,12 +1,15 @@
 {
   "name": "sharm-front",
+  "homepage": "https://tolkunio.github.io/healthy-beauty",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
@@ -24,6 +27,7 @@
     "typescript": "5.1.6"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.0",
     "sass": "^1.66.1"
   }
 }
