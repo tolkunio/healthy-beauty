@@ -33,7 +33,7 @@ export const Header = () => {
                     <ul>
                         <li>
                             <ActiveLink rout={"/promotional-offers"}>
-                                Важность правильного питания
+                                Важность качественной косметики
                             </ActiveLink>
                         </li>
                         <li>
@@ -82,11 +82,11 @@ export const Header = () => {
                     <Search/>
                     <input
                         type="test"
-                        placeholder="Пошук"
+                        placeholder="Поиск"
                     />
                 </div>
 
-                <Image className="logo-top-bar-header" src={"/logo.jpg"} alt={"logo"} width={200} height={99}/>
+                {/*<Image className="logo-top-bar-header" src={"/logo.jpg"} alt={"logo"} width={200} height={99}/>*/}
 
 
                 <div
